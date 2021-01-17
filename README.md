@@ -1,18 +1,18 @@
 ### 1)Код
-  print("Lab2", False)
-  print("Lab2", True)
-  print("Lab2", None)
+        print("Lab2", False)
+        print("Lab2", True)
+        print("Lab2", None)
 
-  a=2
-  print(abs(-12.5), f"є рівним {abs(12.5)}")
-  print(abs(a), f"+ {abs(a)}", "= 4")
-  print(abs(a), f"+ {abs(a)}", f"={abs(a*2)}")
+        a=2
+        print(abs(-12.5), f"є рівним {abs(12.5)}")
+        print(abs(a), f"+ {abs(a)}", "= 4")
+        print(abs(a), f"+ {abs(a)}", f"={abs(a*2)}")
 
 
 
-  documents = ["Лапи", "вуса","хвіст"]
-  for oficer in documents:
-      if oficer == "Лапи":
+        documents = ["Лапи", "вуса","хвіст"]
+        for oficer in documents:
+        if oficer == "Лапи":
           print("Показую лапи")
 
           elif oficer == "вуса":
