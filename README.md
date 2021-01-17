@@ -1,8 +1,9 @@
 ### 1)Код
-    print("Lab2", False)
+#I
+print("Lab2", False)
 print("Lab2", True)
 print("Lab2", None)
-# II
+#II
 a=2
 print(abs(-12.5), f"є рівним {abs(12.5)}")
 print(abs(a), f"+ {abs(a)}", "= 4")
