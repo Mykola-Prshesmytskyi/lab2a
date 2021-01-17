@@ -1,15 +1,15 @@
 ### 1)Код
-#I
+# I
 print("Lab2", False)
 print("Lab2", True)
 print("Lab2", None)
-#II
+# II
 a=2
 print(abs(-12.5), f"є рівним {abs(12.5)}")
 print(abs(a), f"+ {abs(a)}", "= 4")
 print(abs(a), f"+ {abs(a)}", f"={abs(a*2)}")
 
-#III
+# III
 
 documents = ["Лапи", "вуса","хвіст"]
 for oficer in documents:
@@ -21,7 +21,7 @@ for oficer in documents:
 else:
         print("Показую хвіст")
 print("ось мої документи")
-#VI
+# VI
 n = input("Введіть ціле число: ")
 try:
     n = int(n)
@@ -43,14 +43,14 @@ finally:
     print("Понятно")
 
 
-#V
+# V
 with open('One_to_divide_by_N.txt', 'wt', ) as inFile:
     num = int(input())
     line = str('1 / ' + str(num) + ' = ' + str(1 / num))
     print(line)
     inFile.write (line)
 
-#IV
+# IV
 u = [1, 2, 10]
 u= list(map(lambda y: y * 2, u))
 print(u)
