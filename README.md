@@ -1,8 +1,8 @@
 ### 1)Код
 # I
-print("Lab2", False)
-print("Lab2", True)
-print("Lab2", None)
+  print("Lab2", False)
+  print("Lab2", True)
+  print("Lab2", None)
 # II
 a=2
 print(abs(-12.5), f"є рівним {abs(12.5)}")
